@@ -5,7 +5,11 @@ function pluie($tab){
 }
 
   $tableau = array("HTML","CSS","Javascript","PHP");
-   print_r (pluie($tableau));
+  foreach($tableau as $tab)
+  {
+    echo $tab ,'<br/>';
+  }
+
 
 
 function soleil($lune){
